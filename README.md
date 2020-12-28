@@ -60,7 +60,7 @@ When writing commit messages, follow these guidelines mentioned by [Chris Beams]
 - Wrap the body at 72 characters
 - Use the body to explain what and why vs. how
 
-I also added this guideline tags for the commit type as you can see in this [Bolaji Ayodeji article](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/):
+I also add these tags for the commit type as you can see in this [Bolaji Ayodeji article](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/):
 
 - Start subject line with a tag: [feat], [fix], [chores], [refactor], [test], [docs] or [styles]
 
@@ -163,7 +163,7 @@ Keep in mind these basic guidelines:
 
 1 - **Arrow function is king** :crown:
 
-If it is not necessary to use function declarations, use arrow function. And whenever possible, use the short version of the arrow function.
+If it is not necessary to use function declarations, use arrow function. And whenever possible, use the short version of the arrow function. _This is just my personal preference, not a rule._
 
 2 - **Async await your promises** :pause_button::hourglass:
 
@@ -179,9 +179,9 @@ No excuses for using double quotes if not required.
 
 5 - **Semi colons are dirty** :poop::speak_no_evil:
 
-Unless it is required, do not use semi colons. The code looks cleaner without them.
+Unless it is required, do not use semi colons. The code looks cleaner without them. _Be aware that this is also just my personal preference and many people disagree with this._
 
-In addition to these basic guidelines, is it also nice to follow the best practices described bellow. _Most of the examples bellow were based on the material available on the [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript/blob/master/README.md) repository._
+In addition to these basic guidelines, is it also nice to follow the best practices described bellow. _Most of the examples bellow were based on the material available on the [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript/blob/master/README.md) repository with a few changes made by me._
 
 #### Use meaningful and pronounceable variable names :no_entry_sign::zipper_mouth_face:
 
@@ -543,6 +543,7 @@ const hashIt = (data) => {
 #### Do not commit commented out code or unnecessary `console.log()` :wastebasket:🔇
 
 Version control exists for a reason. Leave old code in your history.
+In addition, `console.log ()` not only makes the code dirty, it can also inadvertently remain in a production environment if it is forgotten.
 
 **Bad** :poop:
 
@@ -578,7 +579,7 @@ According to the [React+TypeScript Cheatsheets](https://github.com/typescript-ch
 
 Using `any` comes at the cost of losing type safety, which is one of the main motivations for using TypeScript. Unless we are dealing with a 3rd party library, avoid using it.
 
-In addition to these basic guidelines, is it also nice to follow the best practices described bellow. _Most of these examples were based on the material available on the [clean-code-typescript](https://github.com/labs42io/clean-code-typescript) repository._
+In addition to these basic guidelines, is it also nice to follow the best practices described bellow. _Most of these examples were based on the material available on the [clean-code-typescript](https://github.com/labs42io/clean-code-typescript) repository with a few changes made by me._
 
 #### Use meaningful and pronounceable variable names :no_entry_sign::zipper_mouth_face:
 
