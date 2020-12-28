@@ -1,8 +1,8 @@
-# Style Guidelines Compilation
+# Style Guidelines Compilation :construction_worker: :construction:
 
-The following is a compilation of style guidelines that I use as reference for writing clean, readable and beautiful code.
+These styles guides were originally created for the [JoinMe](https://github.com/MikeVedsted/JoinMe) project based on several other style guides that I normally use as a reference to write beautiful, clean and readable code.
 
-I also made some changes to the original sources that I used as reference to fit my personal preference. If you decide to use this material, feel free to change the parts you find necessary.
+I also made some changes to the original sources that I used as reference to fit my personal preference. If you decide to use this material, feel free to change the parts you find necessary. All references used here are available in the [References](#references) section.
 
 #### Table Of Contents
 
