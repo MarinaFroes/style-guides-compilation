@@ -50,16 +50,19 @@ In general, your code should be self-explanatory. Add comments only when necessa
 
 ### Git Commit Messages Style Guide
 
-When contributing to this project, your commit messages should follow these guidelines:
+When writing commit messages, follow these guidelines mentioned by [Chris Beams](https://chris.beams.io/posts/git-commit/):
 
 - Separate subject from body with a blank line
 - Limit the subject line to 50 characters
 - Capitalize the subject line
-- Start subject line with a tag: [feat], [fix], [chores], [test], [docs] or [styles]
 - Do not end the subject line with a period
 - Use the imperative mood in the subject line
 - Wrap the body at 72 characters
 - Use the body to explain what and why vs. how
+
+I also added this guideline tags for the commit type as you can see in this [Bolaji Ayodeji article](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/):
+
+- Start subject line with a tag: [feat], [fix], [chores], [refactor], [test], [docs] or [styles]
 
 Here is an example of commit message:
 
@@ -75,12 +78,15 @@ Add outline for front end to enable developers to begin tasks
 
 #### Template File :busts_in_silhouette:
 
-To create a commit template including the instructions above, add the content bellow in a file called `.gitmessage` in your home directory:
+To create a commit template, I follow [Lisa Wolderiksen example](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733) with a few changes.
+
+Add the content bellow in a file called `.gitmessage` in your home directory:
 
 ```
 # Title: Start with [<tag>], summary, imperative, start upper case, max 50 characters, don't end with a period
+
 # THIS LINE IS 50 CHARACTERS ALL INCLUDE #########
-# Tag options: [feat], [fix], [chores], [test], [styles], [doc]
+# Tag options: [feat], [fix], [chores], [refactor], [test], [docs] or [styles]
 # Remember blank line between title and body.
 # Body: Explain *what* and *why* (not *how*). Include task ID if relevant. Max 72 characters.
 
@@ -95,11 +101,12 @@ To create a commit template including the instructions above, add the content be
 # 1. Separate subject from body with a blank line
 # 2. Limit the subject line to 50 characters
 # 3. Capitalize the subject line
-# 4. Start subject line with a tag: [feat], [fix], [chores], [test], [docs] or [styles]
-# 5. Do not end the subject line with a period
-# 6. Use the imperative mood in the subject line
-# 7. Wrap the body at 72 characters
-# 8. Use the body to explain what and why vs. how
+# 4. Do not end the subject line with a period
+# 5. Use the imperative mood in the subject line
+# 6. Wrap the body at 72 characters
+# 7. Use the body to explain what and why vs. how
+
+# Extra: Start subject line with a tag: [feat], [fix], [chores], [refactor], [test], [docs] or [styles]
 
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
@@ -1409,6 +1416,7 @@ Ampersand (**&**) is equal to the selector of the parent selector. We can use it
 - [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 - [Running VS Code on Mac - Install 'code' command in PATH command](https://vscode.readthedocs.io/en/latest/setup/mac/)
 - [Pretty git log in one line](https://ma.ttias.be/pretty-git-log-in-one-line/)
+- [How to Write Good Commit Messages: A Practical Git Guide](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/)
 
 ### JavaScript
 
